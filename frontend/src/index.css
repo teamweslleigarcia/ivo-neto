@@ -1,0 +1,48 @@
+:root{
+    --verde1: #46764a;
+    --verde2: #316735;
+    --verde3: #43b24c;
+    --amarelo: #ffdd00;
+    --azul: #1c2c5a;
+    --laranja: #c1902f;
+
+    --bg: #f1f1f1;
+
+    --text-black: #333;
+    --text-white: #f1f1f1;
+
+    --link:#333;
+    --link-hover: #43b24c;
+
+    --title: ##43b24c;
+
+    --btn1: #43b24c;
+    --btn1-hover: #4ec958;
+    --btn-text-white: #f1f1f1;
+
+    --btn2: #4a794e;
+    --btn2-hover: #4ec958;
+
+    --btn3: #dae5db;
+    --btn3-hover: #43b24c;
+    --btn-text-green: #43b24c;
+
+    --whatsapp: #075e54;  /*hover: { opacity: 70% }*/
+    --facebook: #4267b2; /*hover: { opacity: 70% }*/
+    --instagram: #c13584; /*hover: { opacity: 70% }*/
+    --twitter: #1da1f2; /*hover: { opacity: 70% }*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
