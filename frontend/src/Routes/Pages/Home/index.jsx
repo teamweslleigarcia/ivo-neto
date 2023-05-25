@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './pagehome.css'
 const PageHome = () => {
   return (
-    <div>PageHome</div>
+    <div className='container-home'>PageHome</div>
   )
 }
 

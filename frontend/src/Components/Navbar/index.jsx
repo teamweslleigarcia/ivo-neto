@@ -12,11 +12,21 @@ const Navbar = () => {
   
   const [click, setClick] = useState(false);
 
+  const [dropdown, setDropdown] = useState(false);
+
+  const [fix, setFix] = useState(false);
+  
   const handleClick = () => setClick(!click);
 
   const closeMobileMenu = () => setClick(false);
 
-  const [dropdown, setDropdown] = useState(false);
+  function setFixed(){
+    if(window.scrollY >= 392){
+      setFix = true;
+    }else{
+      setFix = false;
+    }
+  }
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
