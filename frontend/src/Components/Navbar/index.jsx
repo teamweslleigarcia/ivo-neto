@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
-import './navbar.css'
 import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
-
-import {GiRocketThruster} from 'react-icons/gi'
 import { FaBars, FaTimes, FaUser, FaCaretDown} from 'react-icons/fa'
 import { IconContext } from 'react-icons'
+
 import Dropdown from '../Dropdown'
+
+import './navbar.css'
 
 const Navbar = () => {
   
@@ -20,13 +20,7 @@ const Navbar = () => {
 
   const closeMobileMenu = () => setClick(false);
 
-  function setFixed(){
-    if(window.scrollY >= 392){
-      setFix = true;
-    }else{
-      setFix = false;
-    }
-  }
+  const  setFixed = () => window.scrollY ? setFix = true : setFix = false;
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
