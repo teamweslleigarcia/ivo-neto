@@ -4,8 +4,9 @@ import { Link } from 'react-router-dom'
 import { NavLink } from 'react-router-dom'
 
 import {GiRocketThruster} from 'react-icons/gi'
-import { FaBars, FaTimes, FaUser} from 'react-icons/fa'
+import { FaBars, FaTimes, FaUser, FaCaretDown} from 'react-icons/fa'
 import { IconContext } from 'react-icons'
+import Dropdown from '../Dropdown'
 
 const Navbar = () => {
   
@@ -15,6 +16,23 @@ const Navbar = () => {
 
   const closeMobileMenu = () => setClick(false);
 
+  const [dropdown, setDropdown] = useState(false);
+
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(true);
+    }
+  };
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
 
   return (
     <IconContext.Provider value={{color: "#fff"}}>
@@ -50,12 +68,16 @@ const Navbar = () => {
               Valores
             </NavLink>
           </li>
-          <li className='nav-item'>
+          <li className='nav-item'  
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+            >
             <NavLink  to="/projetos" 
             className={({ isActive }) => "nav-links" + ( isActive ? " activated" : "")}
             onClick={closeMobileMenu}>
-              Projetos
+              Projetos <FaCaretDown />
             </NavLink>
+            {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <NavLink  to="/gabinete" 

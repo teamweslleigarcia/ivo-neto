@@ -20,6 +20,10 @@ import PageTrajetoria from "./Routes/Pages/Trajetoria"
 import PageBlog from "./Routes/Pages/Blog"
 import PageNoticias from "./Routes/Pages/Noticias"
 import PageContact from './Routes/Pages/Contact'
+import FeiraEmpreendedor from "./Routes/Pages/FeiraEmpreendedor"
+import MinhaRua from "./Routes/Pages/MinhaRua"
+import SonhoPrincesa from "./Routes/Pages/SonhoPrincesa"
+import ProjetosApoio from './Routes/Pages/ProjetosApoio'
 
 const AppLayout = () =>{
   return (
@@ -70,6 +74,22 @@ const router = createBrowserRouter([
       {
         path: "contact",
         element: <PageContact />,
+      },
+      {
+        path: "feira-empreendedor",
+        element: <FeiraEmpreendedor />,
+      },
+      {
+        path: "se-essa-rua-fosse-minha",
+        element: <MinhaRua />,
+      },
+      {
+        path: "meu-sonho-princesa",
+        element: <SonhoPrincesa />,
+      },
+      {
+        path: "projetos-apoio",
+        element: <ProjetosApoio />,
       },
     ]
   }
