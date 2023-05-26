@@ -8,17 +8,17 @@ const CSocialMidia = () => {
   return (
     <div className='container-social-midia'>
         <div className='social-midia-icons'>
-            <Link to="https://facebook.com/weslleigarcia" className='icon-link'>
-                <FaFacebookF className='icon' />
+            <Link to="https://wa.me/5592994087325" className='icon-link'>
+                <FaWhatsapp className='icon-w'  />
+            </Link>
+            <Link to="https://www.facebook.com/ivonetojj" className='icon-link'>
+                <FaFacebookF className='icon-w' />
             </Link> 
-            <Link to="" className='icon-link'>
-                <FaWhatsapp className='icon'  />
+            <Link to="https://www.instagram.com/ivo_neto_jj/" className='icon-link'>
+                <FaInstagram className='icon-w'  />
             </Link> 
-            <Link to="" className='icon-link'>
-                <FaInstagram className='icon'  />
-            </Link> 
-            <Link to="" className='icon-link'>
-                <FaTwitter className='icon'  />
+            <Link to="https://www.twitter.com/vereadorivoneto/" className='icon-link'>
+                <FaTwitter className='icon-w'  />
             </Link> 
         </div>
     </div>

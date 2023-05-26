@@ -1,11 +1,10 @@
 import React from 'react'
+import SectionHeader from '../../../Components/SectionHeader'
 import './pagehome.css'
-import CSocialMidia from '../../../Components/SocialMidia'
 const PageHome = () => {
   return (
     <div className='container-home'>
-      PageHome
-      <CSocialMidia />
+      <SectionHeader />
     </div>
   )
 }

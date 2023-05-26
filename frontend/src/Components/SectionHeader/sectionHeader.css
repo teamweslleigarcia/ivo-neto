@@ -1,0 +1,117 @@
+.container-section-header{
+    height: 500px;
+}
+
+.section-header{
+    height: 500px;
+}
+
+.bgimage{
+    width: 100%;
+    height: 500px;
+}
+
+.cover{
+    filter: blur(3px);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.caption-align{ 
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #000;
+    /* background-color: rgba(202, 206, 202, 0.3); */
+}
+
+.caption-align p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 5px silver;
+}
+
+.caption-align .text-bg{
+    background-color: var(--amarelo);
+    padding: 10px;
+    margin: 5px;
+}
+
+.caption-align .span-plus{
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 0 5px;
+}
+
+.caption-align .caption-fonte{
+    font-size: 12px;
+}
+.section-header--carousel{
+    width: 100%;
+}
+
+.section-header--perfil{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    position: absolute;
+    top: 60px;
+}
+
+.perfil{
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.perfil--card h1{
+    font-weight: bolder;
+    color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.perfil--card p{
+    font-weight: lighter;
+    letter-spacing: 10px;
+    color: white;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+.perfil--photo{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    align-items: flex-end;
+}
+
+.perfil--photo-img{
+    width: 100%;
+}
+
+.perfil--card{
+    height: 150px;
+    width: 100%;
+    background-color: var(--verde2);
+}
+
+.perfil--social-midia{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde2);
+}
+
