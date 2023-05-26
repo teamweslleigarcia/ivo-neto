@@ -1,4 +1,6 @@
 .container-home{
-    height: 1000px;
-    background-color: #333;
+    height: auto;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
 }

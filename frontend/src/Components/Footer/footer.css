@@ -3,6 +3,7 @@ footer{
     height: 60px;
     width: 100%;
     color: var(--text-white);
+    bottom: 0;
 }
 
 .container-footer{

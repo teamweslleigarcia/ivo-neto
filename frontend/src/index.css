@@ -46,3 +46,22 @@ body{
     height: 100vh;
 }
 
+.container-section{
+    height: 600px;
+    display: flex;
+    margin: 5px 50px;
+}
+
+.title-section{
+    border-bottom: 1px solid silver;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+}
+
+h2.title-section--h2{
+    color: var(--verde3);
+    margin: 0;
+    width: auto;
+    border-bottom: 1px solid var(--verde3);
+}

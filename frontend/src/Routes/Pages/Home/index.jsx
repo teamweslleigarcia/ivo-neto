@@ -1,14 +1,18 @@
 import React from 'react'
 import SectionHeader from '../../../Components/SectionHeader'
 import './pagehome.css'
+import SectionGabinete from '../../../Components/SectionGabinete'
+import SectionBlog from '../../../Components/SectionBlog'
+import SectionNoticias from '../../../Components/SectionNoticias'
+import SectionContato from '../../../Components/SectionContato'
 const PageHome = () => {
   return (
     <div className='container-home'>
       <SectionHeader />
-      {/* Section Gabinete */}
-      {/* Section Blog */}
-      {/* Section Noticia */}
-      {/* Section Contato */}
+      <SectionGabinete title="Gabinete"/>
+      <SectionBlog title="Blog"/>
+      <SectionNoticias title="Noticias"/>
+      <SectionContato title="Contato"/>
     </div>
   )
 }
