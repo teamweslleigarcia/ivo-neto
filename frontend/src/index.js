@@ -24,12 +24,14 @@ import FeiraEmpreendedor from "./Routes/Pages/FeiraEmpreendedor"
 import MinhaRua from "./Routes/Pages/MinhaRua"
 import SonhoPrincesa from "./Routes/Pages/SonhoPrincesa"
 import ProjetosApoio from './Routes/Pages/ProjetosApoio'
+import Footer from "./Components/Footer";
 
 const AppLayout = () =>{
   return (
     <>
       <Navbar />
       <Outlet />
+      <Footer />
     </>
   )
 }

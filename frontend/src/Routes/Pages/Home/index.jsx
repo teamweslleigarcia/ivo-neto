@@ -5,6 +5,10 @@ const PageHome = () => {
   return (
     <div className='container-home'>
       <SectionHeader />
+      {/* Section Gabinete */}
+      {/* Section Blog */}
+      {/* Section Noticia */}
+      {/* Section Contato */}
     </div>
   )
 }
