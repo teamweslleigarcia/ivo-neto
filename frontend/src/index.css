@@ -6,7 +6,7 @@
     --azul: #1c2c5a;
     --laranja: #c1902f;
 
-    --bg: #f1f1f1;
+    --bg: #eeeded;
 
     --text-black: #333;
     --text-white: #f1f1f1;
@@ -47,9 +47,11 @@ body{
 }
 
 .container-section{
-    height: 600px;
+    height: auto;
     display: flex;
     margin: 5px 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .title-section{
@@ -64,4 +66,11 @@ h2.title-section--h2{
     margin: 0;
     width: auto;
     border-bottom: 1px solid var(--verde3);
+    font-size: 24px;
+    padding: 10px;
+}
+
+h2.title-section--h2:hover{
+    background-color: #d2d2d2;
+    padding: 10px;
 }
