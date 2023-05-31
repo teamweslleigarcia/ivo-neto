@@ -36,7 +36,7 @@ const SectionContato = (props) => {
                 {...register("telefone",
                   { required: true,  
                     pattern:{
-                      value:/^(?:(?:\+|00)?(55)\s?)?(?:\(?([1-9][0-9])\)?\s?)?(?:((?:9\d|[2-9])\d{3})\-?(\d{4}))$/,
+                      value:/^(?:(?:\+|00)?(55)\s?)?(?:\(?([1-9][0-9])\)?\s?)?(?:((?:9\d|[2-9])\d{3})-?(\d{4}))$/,
                       message: 'Telefone Inválido. Tente (XX) XXXXX-XXXX'
                     },
                   })
