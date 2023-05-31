@@ -28,3 +28,16 @@ footer{
 .container-footer a:hover{
     color: var(--amarelo);
 }
+
+@media screen and (max-width: 960px){
+
+    footer{
+        bottom: 0;
+    }
+
+    .container-footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+    }
+}

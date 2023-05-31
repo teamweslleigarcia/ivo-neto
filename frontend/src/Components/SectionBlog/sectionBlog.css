@@ -1,4 +1,5 @@
 .container-section--blog{
+    border: 1px solid orange;
     width: 100%;
     height:auto;
     display: flex;
@@ -155,3 +156,11 @@
     height:32px;
   }
   /* FIM REACT SHARE */
+
+  @media screen and (max-width: 960px){
+    .container-card{
+        border: 1px solid red;
+        display: flex;
+        justify-content: center;
+    }
+  }
