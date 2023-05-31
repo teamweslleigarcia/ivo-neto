@@ -79,7 +79,7 @@ const Navbar = () => {
             <NavLink  to="/projetos" 
             className={({ isActive }) => "nav-links-w" + ( isActive ? " activated" : "")}
             onClick={closeMobileMenu}>
-              Projetos <FaCaretDown />
+              Projetos <FaCaretDown className='icon-dropdown' />
             </NavLink>
             {dropdown && <Dropdown />}
           </li>

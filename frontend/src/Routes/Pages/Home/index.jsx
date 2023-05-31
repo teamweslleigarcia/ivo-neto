@@ -11,8 +11,8 @@ const PageHome = () => {
       <SectionHeader />
       <SectionGabinete title="Gabinete"/>
       <SectionBlog title="Blog"/>
-      <SectionNoticias title="Noticias"/>
-      <SectionContato title="Contato"/>
+      {/*<SectionNoticias title="Noticias"/>*/}
+      <SectionContato title="Contate-me"/>
     </div>
   )
 }

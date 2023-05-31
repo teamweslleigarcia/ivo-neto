@@ -1,8 +1,9 @@
 import React from 'react'
 
+import Construcao from '../../../Components/Construcao'
 const PageAbout = () => {
   return (
-    <div>PageAbout</div>
+    <Construcao name='Quem Sou Eu'/>
   )
 }
 

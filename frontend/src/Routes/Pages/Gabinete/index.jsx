@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Contrucao from '../../../Components/Construcao'
 const PageGabinete = () => {
   return (
-    <div>Gabinete</div>
+    <Contrucao name='Meu Gabinete' />
   )
 }
 

@@ -1,8 +1,9 @@
 import React from 'react'
+import Construcao from '../../../Components/Construcao'
 import './sonhoPrincesa.css'
 const SonhoPrincesa = () => {
   return (
-    <div>Meu Sonho de Princesa</div>
+    <Construcao name="Projetos Que Apoio" />
   )
 }
 

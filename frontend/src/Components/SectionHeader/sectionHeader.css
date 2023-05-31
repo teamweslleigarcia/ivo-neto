@@ -26,7 +26,7 @@
     align-items: center;
     font-size: 30px;
     color: #000;
-    /* background-color: rgba(202, 206, 202, 0.3); */
+     background-color: rgba(202, 206, 202, 0.3);
 }
 
 .caption-align p{
@@ -115,3 +115,8 @@
     background-color: var(--verde2);
 }
 
+@media screen and (max-width: 960px){
+    .caption{
+        display: none;
+    }
+}

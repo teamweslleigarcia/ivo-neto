@@ -1,8 +1,9 @@
 import React from 'react'
 import './feiraEmpreendedor.css'
+import Construcao from '../../../Components/Construcao'
 const FeiraEmpreendedor = () => {
   return (
-    <div>FeiraEmpreendedor</div>
+    <Construcao name='Feira do Empreendedor' />
   )
 }
 

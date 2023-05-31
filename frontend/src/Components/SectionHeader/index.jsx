@@ -27,10 +27,10 @@ const SectionHeader = () => {
                         src={Image1}
                         alt=""
                   />
-                  <Carousel.Caption>
+                  <Carousel.Caption className='caption'>
                   <div className='caption-align'>
-                    <p><span className='text-bg'>6</span> Leis em vigor</p>
-                    <p><span className='text-bg'>11</span> Projetos de Lei</p>
+                    <p><span className='text-bg'>7</span> Leis em vigor</p>
+                    <p><span className='text-bg'>22</span> Projetos de Lei</p>
                   </div>
                   </Carousel.Caption>
                 </div>
@@ -43,7 +43,7 @@ const SectionHeader = () => {
                     alt="Second slide"
                   />
                 </div>
-                <Carousel.Caption>
+                <Carousel.Caption className='caption'>
                   <div className='caption-align'>
                     <p><span className='text-bg'>Um</span> dos Vereadores</p>
                     <p> <span className='span-plus'>+</span> <strong> presentes </strong></p>
@@ -63,7 +63,7 @@ const SectionHeader = () => {
                   />
                 </div>
 
-                <Carousel.Caption>
+                <Carousel.Caption className='caption'>
                   <h3>Third slide label</h3>
                   <p>
                     Praesent commodo cursus magna, vel scelerisque nisl consectetur.

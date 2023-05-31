@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Contrucao from '../../../Components/Construcao'
 const ErrorPage = () => {
   return (
-    <div>ErrorPage</div>
+    <Contrucao name='Error Page' />
   )
 }
 

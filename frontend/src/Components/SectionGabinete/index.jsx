@@ -17,25 +17,25 @@ const SectionGabinete = (props) => {
             </Link>
           </div>
           <div className='card-gabinete--dados '>
-            <Link to="">
+            <Link to="/leis-vigor">
               Leis Em Vigor
-              <span className='gabinete--dados card-gabinete--dados-silver2'>06</span>
+              <span className='gabinete--dados card-gabinete--dados-silver2'>07</span>
             </Link>
           </div>
           <div className='card-gabinete--dados'>
-            <Link to="">
+            <Link to="/projetos-lei">
               Projetos de Lei
-              <span className='gabinete--dados card-gabinete--dados-silver1'>11</span>
+              <span className='gabinete--dados card-gabinete--dados-silver1'>22</span>
             </Link>
           </div>
           <div className='card-gabinete--dados'>
-            <Link to="">
+            <Link to="/indicacoes">
               Indicações
-              <span className='gabinete--dados card-gabinete--dados-silver2'>09</span>
+              <span className='gabinete--dados card-gabinete--dados-silver2'>16</span>
             </Link>
           </div>
           <div className='card-gabinete--dados'>
-            <Link to="">
+            <Link to="/ementas">
               Ementas
               <span className='gabinete--dados card-gabinete--dados-silver1'>04</span>
             </Link>
@@ -43,7 +43,7 @@ const SectionGabinete = (props) => {
           <div className='card-gabinete--dados'>
             <Link to="">
               Requerimentos
-              <span className='gabinete--dados card-gabinete--dados-silver2'>1.579</span>
+              <span className='gabinete--dados card-gabinete--dados-silver2'>1.626</span>
             </Link>
           </div>
           <div className='card-gabinete--dados'>

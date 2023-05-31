@@ -26,6 +26,11 @@ import SonhoPrincesa from "./Routes/Pages/SonhoPrincesa"
 import ProjetosApoio from './Routes/Pages/ProjetosApoio'
 import Footer from "./Components/Footer";
 
+import PageEmentas from "./Routes/Pages/Ementas"
+import PageLeisVigor from "./Routes/Pages/LeisVigor"
+import PageProjetosLei from "./Routes/Pages/ProjetosLei"
+import PageIndicacoes from "./Routes/Pages/Indicacoes"
+
 const AppLayout = () =>{
   return (
     <>
@@ -92,6 +97,22 @@ const router = createBrowserRouter([
       {
         path: "projetos-apoio",
         element: <ProjetosApoio />,
+      },
+      {
+        path: "projetos-lei",
+        element: <PageProjetosLei/>,
+      },
+      {
+        path: "leis-vigor",
+        element: <PageLeisVigor />,
+      },
+      {
+        path: "ementas",
+        element: <PageEmentas />,
+      },
+      {
+        path: "indicacoes",
+        element: <PageIndicacoes />,
       },
     ]
   }

@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Construcao from '../../../Components/Construcao'
 const PageNoticias = () => {
   return (
-    <div>Noticias</div>
+    <Construcao name="Notícias" />
   )
 }
 

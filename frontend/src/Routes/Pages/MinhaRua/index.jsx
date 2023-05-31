@@ -1,8 +1,9 @@
 import React from 'react'
 import './minhaRua.css'
+import Construcao from '../../../Components/Construcao'
 const MinhaRua = () => {
   return (
-    <div>MinhaRua</div>
+    <Construcao name="Projeto Se Essa Rua Fosse Minha" />
   )
 }
 
