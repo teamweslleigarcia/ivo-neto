@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='container-footer'>
             <p>Desenvolvido por: </p>
             <Link to="https://prassessoriadigital.netlify.app/">
-                PR Acessoria e Consultoria Digital
+                PR Assessoria e Consultoria Digital
             </Link>
         </div>
     </footer>
